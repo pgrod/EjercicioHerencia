@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EjercicioHerencia
+﻿namespace EjercicioHerencia
 {
-    internal class Operaciones
+    public class Operaciones
     {
+        public double CalcularArea(double lado)
+        {
+            return lado * lado;
+        }
+        public double CalcularPerimetro(double lado)
+        {
+            return 4 * lado;
+        }
+        public double CalcularVolumen(double lado)
+        {
+            return lado * lado * lado;
+        }
     }
 }
